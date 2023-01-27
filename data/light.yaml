@@ -1,0 +1,16 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# parent
+# ├── yolov5
+# └── datasets
+#     └── equipment
+
+path: ./datasets/light # dataset root dir
+train: images/train # train images (relative to 'path') 128 images
+val: images/test # val images (relative to 'path') 128 images
+test: # test images (optional)
+
+# Classes
+names:
+    0: LED
+    1: FPL
+    2: etc
